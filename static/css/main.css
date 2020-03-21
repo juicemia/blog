@@ -1,3 +1,52 @@
+:root {
+    --black: #161719;
+    --gray-darkest: #1f2023;
+    --gray-darker: #292a2d;
+    --background: var(--gray-darker);
+    --foreground: #d0d0da;
+
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Inter,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    margin: 0;
+
+    height: 100%;
+}
+
+nav {
+    padding: 1rem 2rem;
+    
+    background-color: var(--black);
+
+    height: 100%;
+}
+
 h1 {
-    background-color: blue;;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.container {
+    display: flex;
+
+    height: 100vh;
+}
+
+.sidebar {
+    width: 22rem;
+    padding: 2rem;
+    background-color: var(--gray-darkest);
+}
+
+.content {
+    padding: 2rem;
+
+    max-width: 40rem;
 }

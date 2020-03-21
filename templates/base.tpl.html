@@ -4,13 +4,25 @@
 <head>
     <title>{{ title }}</title>
 
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/fonts/inter.css">
 </head>
 
 <body>
-    Template
+    <nav>
+        <span>> juice #</span>
+    </nav>
 
-    {{ content }}
+    <div class="container">
+        <div class="sidebar">
+            <h2>Recent Posts</h2>
+        </div>
+
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
 
     <script src="/js/main.js"></script>
 </body>

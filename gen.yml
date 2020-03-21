@@ -1,0 +1,7 @@
+---
+title: juicemia
+template: base.tpl.html
+
+site:
+  index.html:
+    source: index.md

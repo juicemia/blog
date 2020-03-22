@@ -15,6 +15,9 @@ except FileExistsError:
     print('www already exists, skipping build...')
     exit(1)
 
+# FileExistsError can't be thrown here because 'www' is guaranteed to be empty above.
+mkdir('www/blog')
+
 copytree('static/css', 'www/css')
 copytree('static/webfonts', 'www/webfonts')
 copytree('static/js', 'www/js')

@@ -9,3 +9,4 @@ site:
     wfh.html:
       source: wfh.md
       date: March 22, 2020
+      preview: Working From Home

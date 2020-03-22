@@ -31,7 +31,15 @@
             <h2>Recent Posts</h2>
 
             <ul>
+                {% if blog_links|length > 0 %}
+                {% for link in blog_links %}
+                <li>
+                    <a href="{{ link.href }}">{{ link.preview }}</a>
+                </li>
+                {% endfor %}
+                {% else %}
                 <li>Nothing to see here yet!</li>
+                {% endif %}
             </ul>
 
             <a href="#" class="see-all-link">See all...</a>

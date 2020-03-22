@@ -1,3 +1,4 @@
 .vscode
 gen/venv
 www
+__pycache__

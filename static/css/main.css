@@ -89,6 +89,13 @@ ul {
 .logo {
     display: inline-flex;
     align-items: center;
+
+    padding: 1rem;
+    margin: -1rem;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 #blinking-cursor {

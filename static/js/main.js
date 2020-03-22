@@ -1,3 +1,5 @@
+(() => {
+
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#blinking-cursor').animate(
         [
@@ -12,4 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
             iterations: Infinity
         }
     );
+
+    document.querySelector('.logo').addEventListener('click', () => {
+        window.location = '/';
+    });
 });
+
+})();

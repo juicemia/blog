@@ -32,11 +32,20 @@ siteConfig = config['site']
 env = Environment(loader=FileSystemLoader('templates'), autoescape=select_autoescape([]))
 basetpl = env.get_template('base.tpl.html')
 
-for key in siteConfig:
-    pageConfig = siteConfig[key]
+indexConfig = siteConfig['index.html']
+with codecs.open('content/{}'.format(indexConfig['source']), encoding='UTF-8') as input_file, \
+    codecs.open('www/index.html', 'w+', encoding='UTF-8') as output_file:
 
-    with codecs.open('content/{}'.format(pageConfig['source']), encoding='UTF-8') as input_file, \
-        codecs.open('www/{}'.format(key), 'w+', encoding='UTF-8') as output_file:
+    buf = input_file.read()
+    content = markdown(buf)
+    output_file.write(basetpl.render(title=title, content=content))
+
+blogConfig = siteConfig['blog']
+for key in blogConfig:
+    pageConfig = blogConfig[key]
+
+    with codecs.open('content/blog/{}'.format(pageConfig['source']), encoding='UTF-8') as input_file, \
+        codecs.open('www/blog/{}'.format(key), 'w+', encoding='UTF-8') as output_file:
 
         buf = input_file.read()
         content = markdown(buf)

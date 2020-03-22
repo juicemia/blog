@@ -5,6 +5,7 @@ template: base.tpl.html
 site:
   index.html:
     source: index.md
-  blog/wfh.html:
-    source: blog/wfh.md
-    date: March 22, 2020
+  blog:
+    wfh.html:
+      source: wfh.md
+      date: March 22, 2020

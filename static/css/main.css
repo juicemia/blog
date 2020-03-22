@@ -6,6 +6,8 @@
     --gray-lightest:  #d0d0da;
     --white: #eaeaff;
 
+    --orange: #f89803;
+
     --background: var(--gray-darker);
     --foreground: var(--gray-lightest);
 
@@ -92,7 +94,7 @@ ul {
 #blinking-cursor {
     display: inline-block;
 
-    background: orangered;
+    background: var(--orange);
     width: 0.45rem;
     height: 1rem;
 

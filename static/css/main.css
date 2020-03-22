@@ -2,8 +2,12 @@
     --black: #161719;
     --gray-darkest: #1f2023;
     --gray-darker: #292a2d;
+    --gray-lighter: #adadb3;
+    --gray-lightest:  #d0d0da;
+    --white: #eaeaff;
+
     --background: var(--gray-darker);
-    --foreground: #d0d0da;
+    --foreground: var(--gray-lightest);
 
     font-size: 16px;
 }
@@ -34,18 +38,18 @@ p {
 }
 
 a {
-    color: #adadb3;
+    color: var(--gray-lighter);
     
     /* This makes the link easier to hover over without screwing with the padding of the parent.*/
     padding: 1rem;
     margin: -1rem 0;
     display: inline-block;
 
-    transition: all 0.2s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 a:hover, a:focus {
-    color: #eaeaff;
+    color: var(--gray-lightest);
 }
 
 .container {

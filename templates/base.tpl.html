@@ -34,7 +34,15 @@
                 {% if blog_links|length > 0 %}
                 {% for link in blog_links %}
                 <li>
-                    <a href="{{ link.href }}">{{ link.preview }}</a>
+                    <a href="{{ link.href }}">
+                        <div>
+                            {{ link.preview }}
+                        </div>
+
+                        <div class="link-date">
+                            Published on {{ link.date }}
+                        </div>
+                    </a>
                 </li>
                 {% endfor %}
                 {% else %}

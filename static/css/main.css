@@ -25,7 +25,7 @@ body {
 
 nav {
     padding: 1rem 2rem;
-    
+
     background-color: var(--black);
 
     height: 100%;
@@ -121,6 +121,11 @@ ul {
 }
 
 .see-all-link {
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.link-date {
     font-size: 0.75rem;
     font-style: italic;
 }

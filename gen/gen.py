@@ -36,7 +36,7 @@ basetpl = env.get_template('base.tpl.html')
 
 # Get every blog to be generated here
 blog_config = site_config['blog']
-blog_links = [BlogLink(blog_config[key]['preview'], '/blog/{}'.format(key)) for key in blog_config.keys()]
+blog_links = [BlogLink(blog_config[key]['preview'], '/blog/{}'.format(key), blog_config[key]['date']) for key in blog_config.keys()]
 
 env.globals['blog_links'] = blog_links
 

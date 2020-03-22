@@ -16,7 +16,7 @@ except FileExistsError:
     exit(1)
 
 copytree('static/css', 'www/css')
-copytree('static/fonts', 'www/fonts')
+copytree('static/webfonts', 'www/webfonts')
 copytree('static/js', 'www/js')
 
 with open('gen.yml') as f:

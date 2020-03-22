@@ -33,6 +33,21 @@ p {
     margin: 1rem 0;
 }
 
+a {
+    color: #adadb3;
+    
+    /* This makes the link easier to hover over without screwing with the padding of the parent.*/
+    padding: 1rem;
+    margin: -1rem 0;
+    display: inline-block;
+
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #eaeaff;
+}
+
 .container {
     display: flex;
 
@@ -49,4 +64,8 @@ p {
     padding: 2rem;
 
     max-width: 40rem;
+}
+
+.social-links {
+    float: right;
 }

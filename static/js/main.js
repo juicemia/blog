@@ -1,1 +1,2 @@
-console.log('loaded javascript');
+document.addEventListener('DOMContentLoaded', function() {
+});

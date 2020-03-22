@@ -73,3 +73,30 @@ a:hover, a:focus {
 .social-links {
     float: right;
 }
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+#blinking-cursor {
+    display: inline-block;
+
+    background: orangered;
+    width: 0.45rem;
+    height: 1rem;
+
+    margin-left: 0.55rem;
+
+    border-radius: 1px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container > img {
+    width: 45%;
+    border-radius: 2px;
+}

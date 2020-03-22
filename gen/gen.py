@@ -18,6 +18,7 @@ except FileExistsError:
 copytree('static/css', 'www/css')
 copytree('static/webfonts', 'www/webfonts')
 copytree('static/js', 'www/js')
+copytree('static/img', 'www/img')
 
 with open('gen.yml') as f:
     config = load(f.read(), Loader=FullLoader)

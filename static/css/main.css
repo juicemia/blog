@@ -29,8 +29,19 @@ nav {
     height: 100%;
 }
 
+nav a {
+    /* This makes the link easier to hover over without screwing with the padding of the parent.*/
+    padding: 1rem;
+    margin: -1rem 0;
+    display: inline-block;
+}
+
 h1 {
     margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
 }
 
 p {
@@ -39,17 +50,16 @@ p {
 
 a {
     color: var(--gray-lighter);
-    
-    /* This makes the link easier to hover over without screwing with the padding of the parent.*/
-    padding: 1rem;
-    margin: -1rem 0;
-    display: inline-block;
 
     transition: all 0.15s ease-in-out;
 }
 
 a:hover, a:focus {
     color: var(--gray-lightest);
+}
+
+ul {
+    margin: 1rem 0;
 }
 
 .container {
@@ -99,4 +109,9 @@ a:hover, a:focus {
 .img-container > img {
     width: 45%;
     border-radius: 2px;
+}
+
+.see-all-link {
+    font-size: 0.75rem;
+    font-style: italic;
 }

@@ -3,6 +3,7 @@
 import argparse
 import mimetypes
 from os import walk
+from sys import exit
 from uuid import uuid4
 from time import sleep
 

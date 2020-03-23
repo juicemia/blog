@@ -2,8 +2,8 @@
 
 import argparse
 import mimetypes
+import sys
 from os import walk
-from sys import exit
 from uuid import uuid4
 from time import sleep
 
@@ -52,14 +52,20 @@ invalidation = cf_client.create_invalidation(
     }
 )['Invalidation']
 
-print('invalidation {} is {}...'.format(invalidation['Id'], invalidation['Status'].lower()))
+dots = 1
 while invalidation['Status'] != 'Completed':
+    print('invalidation {} is in progress{}  '.format(invalidation['Id'], '.' * dots), end='\r')
+
     invalidation = cf_client.get_invalidation(
         Id=invalidation['Id'],
         DistributionId=args.distribution_id
     )['Invalidation']
 
-    print('invalidation {} is {}...'.format(invalidation['Id'], invalidation['Status'].lower()))
+    dots = (dots % 3) + 1
     sleep(2)
 
-exit(0)
+# This moves the output to a new line, because the last print ended with a carriage return instead of a newline.
+# The same character needs to be printed out if not it'll change on the same line before moving to the next one.
+print('i')
+print('invalidation {} is completed!'.format(invalidation['Id']))
+sys.exit(0)

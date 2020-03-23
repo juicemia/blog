@@ -43,29 +43,40 @@ but maybe our loved ones aren't so lucky.
 
 Maybe we've contributed to our 401k and now we're seeing it dwindle.
 
-Working with this level of distraction is hard, and now our work environment has just been
-changed completely.
+Working with this level of distraction is hard, and now our work
+environment has just been changed completely.
 
 The habitual cues that come with driving into the office, setting down our stuff, going to
 the kitchen for a cup of coffee, and settling in for the next couple of hours before lunch aren't
 there anymore. We need to create new habits around getting mentally prepared to work.
 
-## Now is not the Time for Cultural Changes
+With all there is to worry about, and the broken habits that would normally
+prepare us to stay focused while working, we're more distracted than ever.
 
-Given that most of us aren't used to working remotely, and we are more distracted than ever,
-I think we're going to see a huge loss in productivity.
+## It's Not Clear-Cut
+
+Given that most of us aren't used to working remotely, and we are more
+distracted than ever, I think we're going to see a huge loss in
+productivity.
 
 The question is, how will management at these businesses react?
 
-I think most managers and executives will see the loss in productivity as a result of remote-work
-itself, instead of just as a sign that culture needs to change and people are distracted.
+I think it's likely most managers and executives will see the loss in
+productivity as a result of remote-work itself, instead of just as a sign
+that culture needs to change and people are distracted.
 
 And let's not forget, these are people too.
 
-They probably aren't gonna be used to working from home. They are going to have all the same
-problems we're all having.
+They probably aren't gonna be used to working from home. They are going to
+have all the same problems we're all having.
 
 When it comes down to making a decision about letting people work from home, they are going to
 have a negative association with it.
 
 Who knows, maybe we'll have that negative association ourselves.
+
+Don't get me wrong, I love having days where I work from home. I think
+there are a lot of benefits that come with it.
+
+I just don't think it's a guarantee the labor market will turn remote
+because of this.

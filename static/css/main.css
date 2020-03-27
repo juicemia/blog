@@ -118,6 +118,7 @@ ul {
 
 .img-container > img {
     width: 45%;
+    height: 45%;
     border-radius: 2px;
 }
 

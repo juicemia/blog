@@ -77,6 +77,10 @@ ul {
     background-color: var(--gray-darkest);
 }
 
+.sidebar ul li {
+    padding: 1rem 0;
+}
+
 .content {
     padding: 2rem;
 

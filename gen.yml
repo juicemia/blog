@@ -10,3 +10,7 @@ site:
       source: wfh.md
       date: March 22, 2020
       preview: Working From Home
+    how-i-payed-off-my-student-loans.html:
+      source: student-loans.md
+      date: March 27, 2020
+      preview: How I Payed Off My Student Loans

@@ -13,4 +13,8 @@ site:
     how-i-payed-off-my-student-loans.html:
       source: student-loans.md
       date: March 27, 2020
-      preview: How I Payed Off My Student Loans
+      preview: How I Paid Off My Student Loans (part 1)
+    paying-off-loans-part-2-investing.html:
+      source: student-loans-part-2.md
+      date: April 13, 2020
+      preview: How I Paid Off My Student Loans (part 2)

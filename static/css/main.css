@@ -87,6 +87,10 @@ ul {
     max-width: 40rem;
 }
 
+.content h2 {
+    margin-top: 2rem;
+}
+
 .social-links {
     float: right;
 }

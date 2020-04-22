@@ -22,3 +22,7 @@ site:
       source: student-loans-part-3.md
       date: April 19, 2020
       preview: How I Paid Off My Student Loans (part 3)
+    inside-bills-brain.html:
+      source: inside-bills-brain.md
+      date: April 21, 2020
+      preview: Bill Gates is a Genius

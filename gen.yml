@@ -26,3 +26,7 @@ site:
       source: inside-bills-brain.md
       date: April 21, 2020
       preview: Bill Gates is a Genius
+    free-speech-zerohedge.html:
+      source: free-speech-zerohedge.md
+      date: May 16, 2020
+      preview: On Alternative News and Free Speech
